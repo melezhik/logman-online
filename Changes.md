@@ -1,3 +1,8 @@
+# 0.0.5
+
+* Minor fixes
+
+
 # 0.0.4
 
 * Sleep time is set as parameter
