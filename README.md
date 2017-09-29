@@ -14,6 +14,13 @@ For example
 
     $ sparrow plg run longman-online --param word=sparrow
 
+# Other parameters
+
+## sleep
+
+Wait for the $sleep second after every sound clip is played.
+
+Default value is `3`.
 
 # Prerequisites
 
