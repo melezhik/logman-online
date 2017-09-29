@@ -1,6 +1,6 @@
 {
 
-  "name" : "logman-online",
+  "name" : "longman-online",
   "description" : "Listen longman online dictionary examples via audacious",
   "version" : "0.0.1",
   "sparrow_version": "0.2.48",
