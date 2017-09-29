@@ -2,7 +2,7 @@
 
   "name" : "longman-online",
   "description" : "Listen longman online dictionary examples via audacious",
-  "version" : "0.0.1",
+  "version" : "0.0.3",
   "sparrow_version": "0.2.48",
   "category" : "utilities",
   "url" : "https://github.com/melezhik/logman-online"

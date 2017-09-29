@@ -20,6 +20,7 @@ for i in $(perl -n -e 'print $_, "\n" for /data-src-mp3="(.*?)"/g' ~/longman-onl
     echo ~/longman-online/$word/mp3/$fbname stored
   fi
   audacious -q --headless ~/longman-online/$word/mp3/$fbname >/dev/null
+  sleep 2
 done 
 
 

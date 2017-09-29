@@ -12,7 +12,7 @@ Listen longman online dictionary examples via audacious
 
 For example
 
-    $ sparrow plg install longman-online --param word=sparrow
+    $ sparrow plg run longman-online --param word=sparrow
 
 
 # Prerequisites
