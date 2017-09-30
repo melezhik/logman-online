@@ -4,6 +4,7 @@ word=$(config word)
 sleep=$(config sleep)
 
 mkdir -p ~/longman-online/$word/mp3
+mkdir -p ~/longman-online/.data/
 
 if ! test -f ~/longman-online/$word/data.txt; then
   curl -s http://www.ldoceonline.com/dictionary/$word -o ~/longman-online/$word/data.txt
@@ -15,7 +16,11 @@ perl -n -e 'for my $c (/"Play Example"> <\/span>(.*?)<\/span>/g) { $c=~s/<.*?>/
 COUNTER=0
 
 for i in $(perl -n -e 'print $_, "\n" for /data-src-mp3="(.*?)"/g' ~/longman-online/$word/data.txt | perl -n -e 'print if /d+/'  ); do
+
+  COUNTER=$((COUNTER + 1))
+
   fbname=$(basename "$i")
+
   if test -f ~/longman-online/$word/mp3/$fbname; then
     #echo $fbname is already downloaded, skip ...
     :
@@ -24,13 +29,13 @@ for i in $(perl -n -e 'print $_, "\n" for /data-src-mp3="(.*?)"/g' ~/longman-onl
     #echo ~/longman-online/$word/mp3/$fbname stored
   fi
 
-  COUNTER=$((COUNTER + 1))
 
-  head -"$COUNTER" ~/longman-online/$word/words.txt | tail -1
+  perl -MFile::Copy -n -e "chomp; print qq{cp /home/vagrant/longman-online/$word/mp3/$fbname }, qq{'/home/vagrant/longman-online/.data/}.\$_.'.mp3'.\"'\n\" if $COUNTER .. $COUNTER" ~/longman-online/$word/words.txt | bash
 
-  audacious -q --headless ~/longman-online/$word/mp3/$fbname >/dev/null
+  #audacious -q --headless ~/longman-online/$word/mp3/$fbname >/dev/null
 
-  sleep $sleep
+  #sleep $sleep
+
 done 
 
 
