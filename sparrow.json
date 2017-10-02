@@ -1,8 +1,8 @@
 {
 
   "name" : "longman-online",
-  "description" : "Listen longman online dictionary examples via audacious",
-  "version" : "0.0.5",
+  "description" : "Strip longman online dictionary examples and sound tracks",
+  "version" : "0.1.0",
   "sparrow_version": "0.2.48",
   "category" : "utilities",
   "url" : "https://github.com/melezhik/logman-online"
