@@ -13,7 +13,7 @@ fbname=$(basename "$url")
 topic=$(config topic)
 
 mkdir -p  ~/longman-online/$word/mp3/
-mkdir -p  ~/longman-online/$topic/__"$word"__
+mkdir -p  ~/longman-online/__"$topic"__/$word
 
 if test -f ~/longman-online/$word/mp3/$fbname; then
    echo ~/longman-online/$word/mp3/$fbname already downloaded
