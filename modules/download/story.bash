@@ -10,9 +10,10 @@ word=$(config word)
 
 fbname=$(basename "$url")
 
+topic=$(config topic)
 
 mkdir -p  ~/longman-online/$word/mp3/
-mkdir -p  ~/longman-online/.ready/$word
+mkdir -p  ~/longman-online/$topic/__"$word"__
 
 if test -f ~/longman-online/$word/mp3/$fbname; then
    echo ~/longman-online/$word/mp3/$fbname already downloaded
