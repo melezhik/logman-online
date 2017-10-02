@@ -4,18 +4,18 @@ accuse
 affray
 arson
 assault
-assault and battery
+assault-and-battery
 backhander
 battery
 bigamy
-black market
-black marketeer
+black-market
+black-marketeer
 break-in
-breaking and entering
+breaking-and-entering
 caper
 capital
 carjacking
-cat burglar
+cat-burglar
 contract
 cosh
 counterfeit
@@ -25,8 +25,8 @@ crack
 crime
 criminal
 criminal
-criminal law
-criminal record
+criminal-law
+criminal-record
 criminology
 crook
 culpable
@@ -38,8 +38,8 @@ delinquent
 delinquent
 desperado
 disorderly
-drug baron
-drug runner
+drug-baron
+drug-runner
 DUI
 embezzle
 expropriate
@@ -54,13 +54,13 @@ fiddler
 filch
 finger
 fire-raising
-first offender
+first-offender
 flash
 flasher
 forge
 forger
 forgery
-foul play
+foul-play
 frame
 frame-up
 fratricide
@@ -68,35 +68,35 @@ fraud
 freebooter
 gang
 gang-bang
-gang rape
+gang-rape
 gangster
 GBH
 genocide
 getaway
 godfather
-grand larceny
+grand-larceny
 grass
-grievous bodily harm
+grievous-bodily-harm
 heist
 hijack
 hijack
 hijacking
 hit
 hit-and-run
-hit man
+hit-man
 incriminate
-indecent assault
-indecent exposure
+indecent-assault
+indecent-exposure
 infanticide
 job
 joyriding
-juvenile delinquent
+juvenile-delinquent
 kidnap
 larceny
 libel
 libel
 libellous
-low life
+low-life
 mafioso
 malpractice
 manslaughter
@@ -118,18 +118,18 @@ murderess
 muscleman
 nark
 nefarious
-neighbourhood watch
+neighbourhood-watch
 nick
-no-go area
+no-go-area
 offence
 offend
 offender
-old lag
-organized crime
+old-lag
+organized-crime
 outlaw
 parricide
 patricide
-petty larceny
+petty-larceny
 Photofit
 piracy
 plant
@@ -140,7 +140,7 @@ privateer
 protection
 prowl
 prowler
-public nuisance
+public-nuisance
 pull
 punk
 purloin
@@ -173,8 +173,8 @@ snout
 speeding
 stabbing
 stalking
-statutory offence
-statutory rape
+statutory-offence
+statutory-rape
 steal
 stoolpigeon
 supergrass
@@ -199,4 +199,4 @@ vigilante
 villainy
 violate
 violation
-wanted 
+wanted
